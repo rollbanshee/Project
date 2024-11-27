@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-container">
+
+            <div class="logo-section">
+                <img src="./assets/images/Asset 1@3x 1.png" alt="logo" />
+            </div>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu-item active">БАНК</li>
+                    <li class="menu-item">БИЗНЕС</li>
+                    <li class="menu-item">ИНВЕСТИЦИИ</li>
+                    <li class="menu-item">СТРАХОВАНИЕ</li>
+                    <li class="menu-item">МОБАЙЛ</li>
+                    <li class="menu-item">ПУТЕШЕСТВИЯ</li>
+                    <li class="menu-item">РАЗВЛЕЧЕНИЯ</li>
+                </ul>
+            </nav>
+            <button class="login-btn">
+                Войти
+            </button>
+        </header>
+
+        <main class="converter-container">
+            <section class="aaa">
+                <h1>Конвертер валют онлайн</h1>
+                <section class="conversion">
+                    <div class="conversion-block to">
+                        <label for="amount-to" class="currency-label">Хочу приобрести</label>
+                        <ul class="currency-selector">
+                            <li class="currency-item">RUB</li>
+                            <li class="currency-item selected">USD</li>
+                            <li class="currency-item">EUR</li>
+                            <li class="currency-item">GBP</li>
+                        </ul>
+                        <div class="input-group">
+                            <input type="number" id="amount-to" class="amount" value="5000" />
+                            <span class="rate-info">1 RUB = 0.0135 USD</span>
+                        </div>
+                    </div>
+                    <div class="conversion-block from">
+                        <label for="amount-from" class="currency-label">У меня есть</label>
+                        <ul class="currency-selector">
+                            <li class="currency-item selected">RUB</li>
+                            <li class="currency-item">USD</li>
+                            <li class="currency-item">EUR</li>
+                            <li class="currency-item">GBP</li>
+                        </ul>
+                        <div class="input-group">
+                            <input type="number" id="amount-from" class="amount" value="5000" />
+                            <span class="rate-info">1 RUB = 0.0135 USD</span>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <div class="connection-status">connection error</div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="./assets/images/Asset 1@3x 1.png" alt="logo">
+        <div class="list-head">
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+        <div class="button"><span>ВОЙТИ</span></div>
+    </header>
+    <main>
+        <h2>Конвертер валют онлайн</h2>
+        <div class="row-block">
+            <div class="currency-block-left">
+                <p>У меня есть </p>
+                <ul>
+                    <li><span>RUB</span></li>
+                    <li><span>USD</span></li>
+                    <li><span>EUR</span></li>
+                    <li><span>GBP</span></li>
+                </ul>
+                <div class="input-block-left">
+                    <input class="input-left" type="text">
+                    <span>1 RUB = 0.0135 USD</span>
+                </div>
+            </div>
+            <div class="currency-block-right">
+                <p>У меня есть </p>
+                <ul>
+                    <li><span>RUB</span></li>
+                    <li><span>USD</span></li>
+                    <li><span>EUR</span></li>
+                    <li><span>GBP</span></li>
+                </ul>
+                <div class="input-block-right">
+                    <input class="input-right" type="text">
+                    <span>1 RUB = 0.0135 USD</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html> -->
